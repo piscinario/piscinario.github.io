@@ -1,10 +1,10 @@
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: Turquoise;
 }
 
 html {
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
@@ -43,16 +43,16 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #0056b3;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #a7f9ed;
 }
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -63,7 +63,7 @@ a:focus, a:hover {
   font-size: 14px;
   padding: 11px;
   color: white;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 #mainNav .navbar-brand {
@@ -184,19 +184,14 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
-.download-section {
+  .download-section {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#map {
-  width: 100%;
-  height: 300px;
 }
 
 @media (min-width: 992px) {
@@ -204,13 +199,10 @@ a:focus, a:hover {
     padding-top: 200px;
     padding-bottom: 200px;
   }
-  #map {
-    height: 350px;
-  }
 }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -220,16 +212,29 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+}
+/* a7f9ed */
+.btn-default:focus, .btn-default:hover {
+  color: black;
+  border: 1px solid #007bff;
+  outline: none;
+  background-color: #007bff;
+}
+
+.btn-download {
+  color: white;
+  border: 1px solid white;
   background-color: transparent;
 }
 
-.btn-default:focus, .btn-default:hover {
+.btn-download:focus, .btn-download:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #007bff;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #007bff;
 }
 
 ul.banner-social-buttons {
