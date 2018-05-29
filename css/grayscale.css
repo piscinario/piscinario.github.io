@@ -248,6 +248,10 @@ ul.banner-social-buttons {
 }
 
 @media (max-width: 767px) {
+  .content-section {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
