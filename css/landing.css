@@ -184,9 +184,9 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
-  .download-section {
+  .tell_me_more-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/tell_me_more-bg.jpg") no-repeat center center scroll;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -224,13 +224,13 @@ a:focus, a:hover {
   background-color: #007bff;
 }
 
-.btn-download {
+.btn-tell_me_more {
   color: white;
   border: 1px solid white;
   background-color: transparent;
 }
 
-.btn-download:focus, .btn-download:hover {
+.btn-tell_me_more:focus, .btn-tell_me_more:hover {
   color: black;
   border: 1px solid #007bff;
   outline: none;
@@ -249,7 +249,7 @@ ul.banner-social-buttons {
 
 @media (max-width: 767px) {
   .content-section {
-    padding-top: 75px;
+    padding-top: 25px;
     padding-bottom: 150px;
   }
   ul.banner-social-buttons li {
