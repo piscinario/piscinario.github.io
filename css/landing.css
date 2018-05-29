@@ -229,14 +229,14 @@ a:focus, a:hover {
 .btn-tell_me_more {
   color: white;
   border: 1px solid white;
-  background-color: transparent;
+  background-color: black;
 }
 
 .btn-tell_me_more:focus, .btn-tell_me_more:hover {
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
   outline: none;
-  background-color: #125570;
+  background-color: white;
 }
 
 ul.banner-social-buttons {
