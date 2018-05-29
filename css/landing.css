@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: black;
-  background-color: Turquoise;
+  background-color: #32afb5;
 }
 
 html {
@@ -18,7 +18,6 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
@@ -54,22 +53,21 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #a7f9ed;
+  color: #125570;
 }
 
 #mainNav {
-  /* font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: #125570;
 }
 
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
   color: white;
-  border: 1px solid black;
+  border: 1px solid #125570;
 }
 
 #mainNav .navbar-brand {
@@ -112,7 +110,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background: #125570;
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -208,7 +206,6 @@ a:focus, a:hover {
 }
 
 .btn {
-  /* font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -222,12 +219,11 @@ a:focus, a:hover {
   border: 1px solid black;
   background-color: transparent;
 }
-/* a7f9ed */
 .btn-default:focus, .btn-default:hover {
-  color: black;
-  border: 1px solid #007bff;
+  color: white;
+  border: 1px solid white;
   outline: none;
-  background-color: #007bff;
+  background-color: #125570;
 }
 
 .btn-tell_me_more {
@@ -237,10 +233,10 @@ a:focus, a:hover {
 }
 
 .btn-tell_me_more:focus, .btn-tell_me_more:hover {
-  color: black;
-  border: 1px solid #007bff;
+  color: white;
+  border: 1px solid white;
   outline: none;
-  background-color: #007bff;
+  background-color: #125570;
 }
 
 ul.banner-social-buttons {
