@@ -1,8 +1,8 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
+    "title": "landing",
+    "name": "startbootstrap-landing",
     "version": "4.1.1",
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "A landing one page HTML theme for Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -11,9 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
+    "homepage": "https://startbootstrap.com/template-overviews/landing",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-landing/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+        "url": "https://github.com/BlackrockDigital/startbootstrap-landing.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
