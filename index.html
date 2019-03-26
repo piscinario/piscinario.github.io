@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Piscinario - Tus piscinas y jardines en la nube</title>
-    <meta name="description" content="Servicio en la nube para empresas de mantenimiento de piscinas y jardines.">
+    <title>Piscinario - Tus piscinas en la nube</title>
+    <meta name="description" content="Servicio en la nube para empresas de mantenimiento de piscinas.">
     <meta name="author" content="">
 
     <meta property="og:title" content="Piscinario" />
@@ -83,7 +83,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h1 class="brand-heading">Piscinario</h1>
-              <p class="intro-text">Accede a la información de tus piscinas y jardines en cualquier lugar</p>
+              <p class="intro-text">Accede a la información de tus piscinas en cualquier lugar</p>
               <a href="#what_is" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -99,8 +99,8 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>¿Qué es?</h2>
-            <p>¿Cómo recuerdas los datos de cada piscina o jardín a las que tu empresa da mantenimiento? ¿De memoria? ¿Con un Excel?</p>
-            <p>Con Piscinario tendrás una ficha personalizable de cada piscina y jardín con todos los datos técnicos, ubicación, datos del propietario e historial de intervenciones. </p>
+            <p>¿Cómo recuerdas los datos de cada piscina a las que tu empresa da mantenimiento? ¿De memoria? ¿Con un Excel?</p>
+            <p>Con Piscinario tendrás una ficha personalizable de cada piscina con todos los datos técnicos, ubicación, datos del propietario e historial de intervenciones. </p>
             <p class="mb-0">Piscinario se puede consultar desde el móvil, tableta y ordenador. Sólo necesitas tu clave de usuario.</p>
             <a href="#tell_me_more" class="btn btn-circle js-scroll-trigger">
               <i class="fa fa-angle-double-down animated"></i>
@@ -172,5 +172,32 @@
     <script src="js/landing.js"></script>
 
   </body>
+  <!-- Start of Async Drift Code -->
+  <script>
+  "use strict";
 
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('989ge5fpbty8');
+  </script>
+  <!-- End of Async Drift Code -->
 </html>
